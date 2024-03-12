@@ -1,8 +1,11 @@
 #include<iostream>
 #include<queue>
 using namespace std;
-
-
+class Node{
+public:
+int arr;
+Node * curr ;
+}
 class node{
     public:
     int data;
